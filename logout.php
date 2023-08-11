@@ -1,0 +1,9 @@
+<?php
+    session_start();
+    session_unset();
+    session_destroy();
+    $oid=$_SESSION['randomorderid'];
+    session_destroy($oid);
+    session_unset($oid);
+    header("location:exlogin.php");
+?>

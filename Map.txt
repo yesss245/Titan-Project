@@ -1,0 +1,8 @@
+Header done with include
+Footer done with include 
+Shop banners done (11 feb
+contact page map done location and email and nukber done(12 feb
+search bar and cart ak ma add baki ma baki chhe(15 feb
+search bar and cart done all (16 feb
+login and ragistration successfull done with code php (18 feb
+login and ragistration message done (18 feb

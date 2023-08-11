@@ -1,0 +1,11 @@
+************************************
+
+You need to folder name  In the www folder you have to keep the folder name "Titan-Project" name only   
+
+You Need to set database name 
+
+"titanshoppers"
+
+Here Databse file name - "titanshoppers.sql"
+
+********************

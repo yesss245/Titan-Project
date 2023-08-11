@@ -1,0 +1,36 @@
+in main page in top 
+
+<?php
+session_start();
+
+?>
+
+and then msg print code
+
+<div class="row">
+                
+                <?php
+
+                if (isset($_SESSION['Latest'])) 
+                {
+                  ?>
+                  <div class="alert alert-success" align="center" role="alert"><h5 style="align-items: center; justify-content: center; display: flex;"><strong>Hey!</strong> <?php  echo $_SESSION['Latest']; ?></h5></div>
+                  <?php
+                 
+                  unset($_SESSION['Latest']);
+                }
+
+                ?>
+
+</div>
+
+
+php code page in under header 
+
+
+$_SESSION['Latest'] = "Latest product (".$ptitle.") insert Successfully !!!";	
+
+
+and top in 
+
+session_start();
